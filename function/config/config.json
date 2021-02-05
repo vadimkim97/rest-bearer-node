@@ -1,0 +1,11 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "interview_app",
+    "dialect": "mysql"
+  },
+  "port": 8000,
+  "pingHost": "vk.com"
+}

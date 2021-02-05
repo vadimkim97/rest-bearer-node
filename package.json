@@ -1,0 +1,31 @@
+{
+  "name": "interview_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "latest",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "latest",
+    "rimraf": "latest",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "passport-http-bearer": "^1.0.1",
+    "restify": "^8.5.1",
+    "winston": "^3.2.1"
+  }
+}
