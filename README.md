@@ -189,7 +189,7 @@ Request:
 
 ```json
 {
-  "file": file
+  "file": "file"
 }
 ```
 
