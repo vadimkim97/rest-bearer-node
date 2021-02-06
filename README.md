@@ -29,8 +29,8 @@ Request:
 
 ```json
 {
-  "user": user,
-  "password": password
+  "user": "user",
+  "password": "password"
 }
 ```
 
@@ -69,8 +69,8 @@ Request:
 
 ```json
 {
-  "user": user,
-  "password": password
+  "user": "user",
+  "password": "password"
 }
 ```
 
@@ -92,7 +92,7 @@ Request:
 
 ```json
 {
-  "file": file
+  "file": "file"
 }
 ```
 
@@ -224,6 +224,8 @@ Response:
   "status": "LOGOUT"
 }
 ```
+
+-- /latency [GET] - пинг заданного ресурса (vk.com);
 
 ## Usage
 
