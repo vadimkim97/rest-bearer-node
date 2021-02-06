@@ -49,7 +49,7 @@ module.exports.checkAccessToken = async (token) => {
       },
     });
 
-    if (result.userId) {
+    if (result) {
       return result.userId;
     } else {
       return false;
